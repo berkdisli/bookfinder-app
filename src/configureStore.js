@@ -5,4 +5,6 @@ const preloadedState = {};
 // Create store
 const store = createStore(createRootReducer(), // root reducer with router state  
     preloadedState)
+
+
 export default store;
